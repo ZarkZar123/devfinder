@@ -10,7 +10,7 @@ function App() {
   const {theme}=useContext(ThemeContext)
 
   return (
-  <div className={`${ theme==='light'?'bg-light-bg':'bg-d-dark' } flex flex-col justify-center items-center p-[1rem] `}>
+  <div className={`${ theme==='light'?'bg-light-bg':'bg-d-dark' }  flex flex-col justify-center items-center p-[1rem] `}>
     <Header/>
     <SearchBar/>
     <CardDetails/>

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className=" w-full md:w-[60%] lg:w-[45%] flex justify-between">
       <h1 className={` text-lg font-bold text-${theme==='light'?'d-dark':'c-white'} `}>devfinder</h1>
-      <div onClick={toggleTheme}>
+      <div onClick={toggleTheme} className=" cursor-pointer ">
         {
           theme ==='light'?
           <span className="flex items-center gap-2 text-c-light-gray "> <span> Dark</span> < IoMoonSharp /> </span>
